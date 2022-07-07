@@ -1,9 +1,11 @@
 <script setup>
-import { VueComponent } from "./test.md";
+import { VueComponentWith } from "./test.md";
+import HelloWorld from "./components/HelloWorld.vue";
+const WithHello = VueComponentWith({ HelloWorld });
 </script>
 
 <template>
   <article>
-    <VueComponent />
+    <WithHello />
   </article>
 </template>

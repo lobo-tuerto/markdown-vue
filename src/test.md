@@ -10,3 +10,5 @@ date: 2022-07-07
 * Tres
 
 > A blockquote
+
+<HelloWorld msg="Hello Vue 3 + Vite" />
